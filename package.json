@@ -1,4 +1,25 @@
 {
+  "name": "Akinator API",
+  "version": "1.2.3",
+  "description": "Deploy express js to vercel.",
+  "main": "server.js",
+  "engines": {
+    "node" : "18.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikikangsc2-eng/Akinator-API"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rikikangsc2-eng/Akinator-API/issues"
+  },
+  "homepage": "https://github.com/rikikangsc2-eng/Akinator-API",
   "dependencies": {
     "@aqul/akinator-api": "^1.0.1",
     "express": "^4.21.0"
