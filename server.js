@@ -76,7 +76,7 @@ app.get('/', (req, res) => {
 // Start a new game
 app.get('/:username/start', async (req, res) => {
   const { username } = req.params;
-  const region = 'en';
+  const region = 'id';
   
   const akinator = new Akinator({ region, childMode: false });
   await akinator.start();
